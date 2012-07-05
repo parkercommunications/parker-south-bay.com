@@ -80,6 +80,11 @@ img {
 	border:0px;
 }
 
+h4.dealer {
+	color: red;
+	font-style: italic;
+}
+
 h1, h2, h3, h4, h5 {
 	color:black;
 	font-family:sans-serif;
