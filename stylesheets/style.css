@@ -51,7 +51,7 @@ p.title {
 	text-align:center;
 }
 
-#body {
+table.body, div.body {
 	padding: 5px;
 	font-family:sans-serif;
 	border-style:solid;
