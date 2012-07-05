@@ -1,0 +1,54 @@
+body { background-image:url(images/bg.gif);}
+
+table {
+border-style:none;
+border-color:grey;
+}
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+p.title {
+padding:0px;
+margin:0px;
+font-family:sans-serif;
+text-align:center;
+}
+
+#body {
+padding: 5px;
+font-family:sans-serif;
+border-style:solid;
+border-color:grey;
+}
+
+ul {
+list-style-type:none;
+}
+
+small {
+font-family:sans-serif;
+padding:0px;
+margin:0px;
+text-align:center;
+}
+
+
+img {
+padding-top:0px;
+padding-bottom:0px;
+border:0px;
+}
+
+h1, h2, h3, h4, h5 {
+color:black;
+font-family:sans-serif;
+text-align:center;
+padding:0px;
+margin:0px;
+}

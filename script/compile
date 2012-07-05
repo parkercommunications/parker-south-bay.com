@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+# vim: ft=ruby
+require "erb"
+
+project_root = File.expand_path("../..", __FILE__)
+pages = File.join project_root, "pages", "*.html"
+layout = ERB.new File.read File.join("layout.html.erb")
+
+Dir[pages].each do |page|
+  content = File.read page
+  compiled_page_file = File.join project_root, "public", File.basename(page)
+  File.write compiled_page_file, layout.result(binding)
+end

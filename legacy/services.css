@@ -1,0 +1,39 @@
+.tblOuter
+{
+    BORDER-RIGHT: lightslategray .1px solid;
+    BORDER-TOP: lightslategray .1px solid;
+    BORDER-LEFT: lightslategray .1px solid;
+    BORDER-BOTTOM: lightslategray .1px solid;
+    BACKGROUND-COLOR: white;
+    xbackground-image: url(..\images\navbar_bk.gif); 
+    TOP: 2px;
+    LEFT: 2px;
+    POSITION: absolute;
+    
+}
+.tblHeader
+{
+    font-family: Verdana, Arial, Geneva,Helvetica, sans-serif; 
+    font-size: 11px; 
+    font-weight:bold; 
+    xcolor: #000000; 
+    xbackground-color:#666666; 
+    background-image: url(../images/navbar_bk.gif); 
+    height:20px; 
+    text-align:center;
+    text-decoration: none;
+}
+
+.fieldSet 
+{
+    WIDTH: 370px; 
+    HEIGHT: 205px; 
+    POSITION: relative;
+}
+
+.status 
+{
+    color: red;
+    text-align: center;
+    text-decoration: none;
+}    
