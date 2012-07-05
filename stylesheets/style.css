@@ -5,6 +5,10 @@ table {
 	border-color:grey;
 }
 
+ul.nav {
+	padding-left: 0;
+}
+
 ul.nav li {
 	list-style-type: none;
 }
@@ -51,7 +55,7 @@ p.title {
 	text-align:center;
 }
 
-table.body, div.body {
+table.body, div.body, div#body {
 	padding: 5px;
 	font-family:sans-serif;
 	border-style:solid;
