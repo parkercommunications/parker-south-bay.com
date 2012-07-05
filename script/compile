@@ -11,3 +11,6 @@ Dir[pages].each do |page|
   compiled_page_file = File.join project_root, "public", File.basename(page)
   File.write compiled_page_file, layout.result(binding)
 end
+
+system %(git add -A)
+system %(git commit -m"Update at #{Time.now.strftime("%a, %e %b %Y %H:%M:%S")}.")
