@@ -12,5 +12,7 @@ Dir[pages].each do |page|
   File.write compiled_page_file, layout.result(binding)
 end
 
-system %(git add -A)
-system %(git commit -m"Update at #{Time.now.strftime("%a, %e %b %Y %H:%M:%S")}.")
+unless ENV['NOCOMMIT']
+  system %(git add -A)
+  system %(git commit -m"Update at #{Time.now.strftime("%a, %e %b %Y %H:%M:%S")}.")
+end
