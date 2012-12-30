@@ -30,7 +30,7 @@ ul.nav li a {
 	text-decoration: none;
 }
 
-ul.nav li a {
+ul.nav li a.nobutton {
 	background: none;
 }
 
