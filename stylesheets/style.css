@@ -30,6 +30,10 @@ ul.nav li a {
 	text-decoration: none;
 }
 
+ul.nav li a {
+	background: none;
+}
+
 ul.nav li a:hover {
 	background-color: #005BF9;
 	text-decoration: none;
