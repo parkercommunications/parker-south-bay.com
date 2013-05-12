@@ -4,6 +4,9 @@ body {
 	backround-repeat: repeat;
 }
 
+.row.vspace20 {
+	margin-bottom: 20px;
+
 .header .logo {
 	margin-top: 15px;
 }
