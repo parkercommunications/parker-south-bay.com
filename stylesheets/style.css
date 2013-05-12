@@ -34,6 +34,7 @@ small {
 	margin: 4px;
 }
 
-.microsite img {
+.microsite {
+	width: 180px;
 }
 
