@@ -34,10 +34,10 @@ small.tiny {
 	font-weight: 600;
 }
 
-.nav > li > a:hover,
-.nav > li > a:focus {
-	background-color: inherit;
-	background-image: inherit;
+ul.menubar {
+  list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .microsite {
