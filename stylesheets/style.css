@@ -4,8 +4,8 @@ body {
 	backround-repeat: repeat;
 }
 
-.row.vspace50 {
-	margin-bottom: 50px;
+.row.vspace {
+	margin-bottom: 30px;
 }
 
 .header .logo {
