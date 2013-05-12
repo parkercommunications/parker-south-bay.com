@@ -34,8 +34,11 @@ small.tiny {
 	font-weight: 600;
 }
 
-.nav li {
-	margin: 4px;
+.nav > li > a:hover,
+.nav > li > a:focus {
+	background-color: inherit;
+	background-image: inherit;
+
 }
 
 .microsite {
