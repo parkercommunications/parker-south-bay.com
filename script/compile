@@ -1,12 +1,18 @@
 #!/usr/bin/env ruby
 # vim: ft=ruby
 require "erb"
+require "fileutils"
 
 project_root = File.expand_path("../..", __FILE__)
 pages = File.join project_root, "pages", "*.html"
 layout = ERB.new File.read File.join("layout.html.erb")
 public_root = File.join project_root, "public"
 Dir.mkdir public_root unless File.exists? public_root
+
+%w[stylesheets images]. each do |directory|
+  FileUtils.rm_r File.join(public_root, directory) rescue nil
+  FileUtils.cp_r File.join(project_root, directory), File.join(public_root, directory)
+end
 
 Dir[pages].each do |page|
   content = File.read page
