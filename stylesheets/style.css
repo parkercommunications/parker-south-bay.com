@@ -39,7 +39,7 @@ ul.menubar {
 	margin: 0;
 	padding: 0;
 }
-ul.menubar > li {
+ul.menubar > li > a {
 	display: block;
 	width: 100%;
 }
