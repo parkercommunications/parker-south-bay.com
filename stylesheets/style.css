@@ -8,6 +8,10 @@ small {
 	font-size: 14px;
 }
 
+small.tiny {
+	font-size: 12px;
+}
+
 .row.vspace {
 	margin-bottom: 30px;
 }
