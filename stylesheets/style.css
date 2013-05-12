@@ -53,6 +53,10 @@ ul.menubar > li > a {
 	display: block;
 }
 
+.red {
+	color: #c01e33;
+}
+
 .microsite {
 	margin: 0 auto;
 	width: 180px;
