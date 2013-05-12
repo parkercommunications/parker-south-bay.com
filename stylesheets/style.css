@@ -40,7 +40,7 @@ ul.menubar {
 	padding: 0;
 }
 ul.menubar > li {
-	width: 100%;
+	display: block;
 }
 
 .microsite {
