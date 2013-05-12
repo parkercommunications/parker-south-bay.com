@@ -39,6 +39,9 @@ ul.menubar {
 	margin: 0;
 	padding: 0;
 }
+ul.menubar > li {
+	width: 100%;
+}
 
 .microsite {
 	margin: 0 auto;
