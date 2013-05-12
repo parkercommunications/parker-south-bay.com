@@ -11,6 +11,7 @@ body {
 }
 
 .hero-unit h1 {
+	font-size: 36px;
 	font-style: italic;
 }
 
