@@ -11,7 +11,7 @@ Dir.mkdir public_root unless File.exists? public_root
 
 %w[javascripts stylesheets images]. each do |directory|
   FileUtils.rm_r File.join(public_root, directory) rescue nil
-  FileUtils.cp_r File.join(project_root, directory), File.join(public_root, directory)
+  FileUtils.ln_s(File.join(project_root, directory), File.join(public_root, directory)) unless Dir.exists? File.join(public_root, directory)
 end
 
 Dir[pages].each do |page|
