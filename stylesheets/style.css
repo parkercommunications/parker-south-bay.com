@@ -58,3 +58,7 @@ ul.menubar > li > a {
 	width: 180px;
 }
 
+ul.no-decoration {
+	list-style: none;
+}
+
