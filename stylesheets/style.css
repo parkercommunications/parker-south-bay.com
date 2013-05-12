@@ -43,6 +43,7 @@ ul.menubar {
 
 ul.menubar > li {
 	margin: 4px;
+}
 
 ul.menubar > li > a {
 	display: block;
