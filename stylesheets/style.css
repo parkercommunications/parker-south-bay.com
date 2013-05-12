@@ -11,7 +11,9 @@ body {
 }
 
 .hero-unit h1, h2 {
-	font-size: 42px;
 	font-style: italic;
 }
 
+.hero-unit h2 {
+	font-size: 42px;
+}
