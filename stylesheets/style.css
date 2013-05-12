@@ -57,6 +57,15 @@ ul.menubar > li > a {
 	color: #c01e33;
 }
 
+.blue {
+	color: rgb(0, 109, 204);
+}
+
+.red {
+	color: #c01e33;
+}
+
+
 .microsite {
 	margin: 0 auto;
 	width: 180px;
