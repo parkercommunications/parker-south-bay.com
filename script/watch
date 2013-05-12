@@ -11,4 +11,4 @@ end
 
 script_dir = File.expand_path "..", __FILE__
 
-exec "rerun -p'{layout.html.erb,pages/*.html}' #{File.join script_dir, "compile"}"
+exec "rerun -p'{layout.html.erb,pages/*.html,stylesheets/*,javascripts/*,images/*}' #{File.join script_dir, "compile"}"
