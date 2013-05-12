@@ -8,6 +8,10 @@ small {
 	font-size: 14px;
 }
 
+.shove-me-shove-me {
+	margin-left: 3px;
+}
+
 small.tiny {
 	font-size: 12px;
 }
