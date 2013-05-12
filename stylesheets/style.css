@@ -2,10 +2,6 @@ body {
 	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
 }
 
-.container {
-	width: 1000px;
-}
-
 .header .page-header img.logo {
 	width: 250px;
 }
