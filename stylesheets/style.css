@@ -1,8 +1,10 @@
 body {
 	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
-	font-size: 18px;
 	background-image: url(/images/bg.gif);
 	backround-repeat: repeat;
+}
+p {
+	font-size: 18px;
 }
 
 .row.vspace {
