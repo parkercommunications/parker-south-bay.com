@@ -2,6 +2,7 @@ body {
 	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
 }
 
-.header .page-header img.logo {
+.header .logobox {
+	margin: 10px;
 }
 
