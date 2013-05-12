@@ -41,7 +41,6 @@ ul.menubar {
 }
 ul.menubar > li > a {
 	display: block;
-	width: 100%;
 }
 
 .microsite {
