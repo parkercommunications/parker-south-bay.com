@@ -1,5 +1,7 @@
 body {
 	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+	background-image: url(/images/bg.gif);
+	backround-repeat: repeat;
 }
 
 .header .logo {
